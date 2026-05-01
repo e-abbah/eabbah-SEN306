@@ -23,9 +23,10 @@ public class Main {
             System.out.println("Out of stock");
         }
     }
-    
 }
-//class implementations
+
+
+
 class Inventory {
     boolean checkStock(String item) {
         return true; // simulate in stock
