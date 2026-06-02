@@ -65,3 +65,8 @@ class EmailService {
         System.out.println("Email sent to " + guest + " for " + roomType + " booking");
     }
 }
+
+//Reasons for a facade
+// 1. Loose coupling. The main class does not depend directly on RoomService, PaymentService, etc. It only interacts with the BookingFacade. This allows us to change the underlying services without affecting the main class.
+// 2. Simplified interface 
+// 3. Improved readability and usability
